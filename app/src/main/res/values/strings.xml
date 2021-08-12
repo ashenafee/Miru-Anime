@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Miru Anime</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_settings">Settings</string>
+    <string name="anime_cover">Anime cover</string>
+    <string name="name_ntype_nseason_nepisodes_nscore">Name:\nType:\nSeason:\nEpisodes:\nScore:</string>
+    <string name="search">Search</string>
+    <string name="mal_output">MAL output</string>
+    <string-array name="media_types">
+        <item>TV</item>
+        <item>Movie</item>
+        <item>OVA</item>
+        <item>ONA</item>
+    </string-array>
+    <string-array name="list_types">
+        <item>All</item>
+        <item>Watching</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Planning</item>
+    </string-array>
+</resources>

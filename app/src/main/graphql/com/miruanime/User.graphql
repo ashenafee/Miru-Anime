@@ -1,0 +1,22 @@
+query User($user: String) {
+    MediaListCollection(userName: $user, type: ANIME) {
+        lists {
+            entries {
+                media {
+                    title {
+                        romaji
+                    }
+                    format
+                    episodes
+                    coverImage {
+                        extraLarge
+                    }
+                    siteUrl
+                }
+                progress
+            }
+            name
+            status
+        }
+    }
+}

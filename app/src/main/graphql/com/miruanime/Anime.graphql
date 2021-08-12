@@ -1,0 +1,26 @@
+query Anime($query: String, $type: MediaFormat) {
+    Page(perPage: 4) {
+        media(search: $query, format: $type, sort: [POPULARITY_DESC]) {
+            id
+            season
+            seasonYear
+            episodes
+            description
+            format
+            averageScore
+            siteUrl
+            nextAiringEpisode {
+                episode
+            }
+            coverImage {
+                extraLarge
+            }
+            title {
+                romaji
+                english
+                native
+            }
+            genres
+        }
+    }
+}
